@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* Base styles (mobile first) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    height: 100%;
+    background-color: #71bcf1;
+}
+
+header, footer {
+    background-color: #595454;
+    color: rgb(242, 245, 241);
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Times New Roman', Times, serif;
+} 
+footer {
+padding:0.2rem;
+margin-bottom: 2px;
+}
+main {
+    padding: 0.5em;
+}
+
+.content {
+    background-color: rgb(176, 233, 145);
+    padding: 1em;
+   
+}
+
+/* Tablet (min-width: 600px) */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .content {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+/* Desktop (min-width: 1024px) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+
+    .content {
+        max-width: 800px;
+    }
+}

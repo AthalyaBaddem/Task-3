@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Carousel</title>
+    <!-- Link to carousel-specific CSS -->
+    <link rel="stylesheet" href="carosuel.css">
+</head>
+<body>
+    
+    <div id="carousel">
+        <h1>Medhak Church</h1>
+        <!-- Use local images placed in assets/images/ -->
+        <img src="https://tse1.mm.bing.net/th?id=OIP.PYV5EIKgNkzwpDdidwVeuAHaFj&pid=Api&P=0&h=180" class="active" alt="Slide 1">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.MmJpdcthjUqb1gEv8Zq6KAHaFP&pid=Api&P=0&h=180" alt="Slide 2">
+        <img src="https://1.bp.blogspot.com/-h0OJvpXMbJk/T3iPdO5jnKI/AAAAAAAAAZg/9qG3qB4eOEM/s640/20112010.jpg" alt="Slide 3">
+    </div>
+    <div style="text-align: center;">
+        <!-- Navigation buttons -->
+        <button class="btn1" onclick="prevImage()">Previous</button>
+        <button class="btn2" onclick="nextImage()">Next</button>
+    </div>
+
+    <!-- Carousel functionality via external JS -->
+    <script src="carousel.js"></script>
+</body>
+</html>
